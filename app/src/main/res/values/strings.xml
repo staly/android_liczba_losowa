@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">liczba_losowa</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ilosc_klikniec_text">Liczba losowa</string>
+    <string name="generuj_text">Generuj</string>
+    <string name="przedzial_min_text">Min</string>
+    <string name="przedzial_max">Max</string>
+</resources>

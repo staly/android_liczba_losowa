@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="#000000">
+    <TextView
+        android:text="@string/ilosc_klikniec_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ilosc_klikniec_tv"
+        android:textColor="#ff2c13ff"
+        android:textSize="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFFFF"
+        android:layout_marginTop="46dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/generuj_text"
+        android:textColor="#ff2c13ff"
+        android:id="@+id/generuj_but"
+        android:layout_below="@+id/ilosc_klikniec_tv"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFFFF"
+        android:layout_marginTop="121dp" />
+
+</RelativeLayout>
